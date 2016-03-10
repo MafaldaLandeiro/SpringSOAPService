@@ -11,7 +11,7 @@ public class GreetingRepository {
 
 	private static final String templateGreeting = "Hello, %s!";
 
-	public Greeting findCountry(String name) {
+	public Greeting getGreeting(String name) {
 		Assert.notNull(name);
 
 		Greeting result = null;
