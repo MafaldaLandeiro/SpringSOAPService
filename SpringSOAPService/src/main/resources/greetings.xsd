@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:tns="http://www.example.org/greetings" targetNamespace="http://www.example.org/greetings"
-	xmlns:tns="http://www.example.org/greetings" elementFormDefault="qualified">
+	targetNamespace="http://www.example.org/greetings" xmlns:tns="http://www.example.org/greetings"
+	elementFormDefault="qualified">
 	<xs:element name="getGreetingRequest">
 		<xs:complexType>
 			<xs:sequence>
